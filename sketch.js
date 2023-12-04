@@ -42,7 +42,7 @@ function mousePressed() {
 }
 
 function mouseDragged() {
-  if (dist(mouseX, mouseY, sunX, sunY) < 25) {
+  if (dist(mouseX, mouseY, sunX, sunY) < 50) {
     sunX = mouseX;
     sunY = mouseY;
   }
